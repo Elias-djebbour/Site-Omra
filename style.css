@@ -20,4 +20,10 @@ body {
     gap: 20px;
     align-items: center;
 }
+.arabe{
+    width:200px;
+    font-size: 22px;
+    font-family:"Amiri","Scheherazade";
+    text-align: right;
+     }
 }
