@@ -8,7 +8,7 @@ body {
 
     /*Bloc contraste Background */
     .texte-contraste {
-    background: rgba(255, 255, 255, 0.7);  /* Noir à 50% de transparence */
+    background: rgba(255, 255, 255, 0.9);  /* Noir à 50% de transparence */
     color: black;                    /* Pour contraster */
     padding: 20px;                   /* Aère le contenu */
     border-radius: 10px;             /* Coins arrondis (optionnel) */
