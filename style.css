@@ -32,4 +32,35 @@ body {
     font-family:"Amiri","Scheherazade";
     text-align: right;
      }
+
+     .stations-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Image responsive */
+.stations-container img {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsive : mobile */
+@media (max-width: 768px) {
+  .stations-container {
+    flex-direction: column;   /* Image au-dessus du texte */
+  }
+
+  .stations-container img {
+    width: 100%;              /* L’image prend toute la largeur */
+    max-width: 100%;
+  }
+
+  .stations-container ul {
+    width: 100%;
+  }
+}
+
 }
